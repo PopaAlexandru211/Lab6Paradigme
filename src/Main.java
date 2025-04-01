@@ -8,5 +8,6 @@ public class Main {
         System.out.println("a) "+rezultat);
         calculator.clear();
         AdvancedCalculator advancedCalculator = new AdvancedCalculator(2);
+        int rezultat2=advancedCalculator.add(5).power(2).results();
     }
 }
